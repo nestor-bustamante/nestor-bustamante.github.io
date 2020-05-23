@@ -520,6 +520,7 @@ footer ul li a:hover img {
   }
   footer .col {
     min-width: 100%;
+    box-sizing: border-box;
   }
   footer ul {
     justify-content: flex-start;
@@ -527,6 +528,11 @@ footer ul li a:hover img {
   }
   footer ul li {
     margin: 0 15px 0 0;
+  }
+  footer .logo-footer a,
+  footer .logo-footer a img {
+    width: auto;
+    height: 36px;
   }
 }
 @media (max-width: 768px){
