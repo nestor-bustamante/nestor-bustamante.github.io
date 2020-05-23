@@ -1,1 +1,206 @@
-Hola Mundo
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#db5945">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>NGM Arquitecto</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col logo">
+          <a href="#;">
+            <img src="assets/img/ngm_arquitecto_logo.svg" alt="NGM Arquitecto">
+          </a>
+        </div>
+        <div class="col">
+
+          <nav class="navbar-expand-lg menu">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="assets/img/menu-bars.svg" alt="">
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+              <ul class="navbar-nav">
+                <li class="active"><a href="#;">Inicio</a></li>
+                <li><a href="#;">Proyectos</a></li>
+                <li><a href="#;">Oficina</a></li>
+                <li><a href="#;">Bitácora</a></li>
+                <li><a href="#;">Clientes</a></li>
+                <li><a href="#;">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bkg">
+
+    <div class="container">
+      <div class="flex-card">
+        <h1>Cuéntame <span>tu proyecto</span></h1>
+        <p>En nuestro estudio de <strong>arquitectura</strong> te <br>podemos ayudar.</p>
+        <ul>
+          <li><a href="#;" class="primary">Escríbeme</a></li>
+          <li>o</li>
+          <li><a href="#;" class="secondary">Llámame</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-carousel">
+      <div class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target=".carousel" data-slide-to="0" class="active"></li>
+          <li data-target=".carousel" data-slide-to="1"></li>
+          <li data-target=".carousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="assets/img/slide_01.jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slide_02.jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/slide_03.jpg" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="wrapper-info">
+    <div class="container">
+      <div class="row no-row">
+        <div class="col col-4 block-01">
+          <div class="wrapper-img">
+            <div class="over">
+              <div class="info">
+                <div class="title">Proyecto Lindo</div>
+                <div class="desc">Viña del Mar</div>
+                <div class="more">
+                  <a href="#;">Ver más</a></div>
+              </div>
+            </div>
+            <img src="assets/img/index-01.jpg" alt="">
+          </div>
+        </div>
+        <div class="col col-8 block-01-too">
+          <div class="wrapper-img">
+            <div class="over">
+              <div class="info">
+                <div class="title">Proyecto Lindo 02</div>
+                <div class="desc">Valdivia</div>
+                <div class="more">
+                  <a href="#;">Ver más</a></div>
+              </div>
+            </div>
+            <img src="assets/img/index-02.jpg" alt="">
+          </div>
+        </div>
+        <div class="col col-8 block-02">
+          <div class="wrapper-img">
+            <div class="over">
+              <div class="info">
+                <div class="title">Bitácora</div>
+                <div class="desc">Nustra historia</div>
+                <div class="more">
+                  <a href="#;">Ver más</a></div>
+              </div>
+            </div>
+            <img src="assets/img/index-03.jpg" alt="">
+          </div>
+        </div>
+        <div class="col col-4 block-02-too">
+          <div class="wrapper-img">
+            <div class="over">
+              <div class="info">
+                <div class="title">Oficina</div>
+                <div class="desc">Nuestro espacio</div>
+                <div class="more">
+                  <a href="#;">Ver más</a></div>
+              </div>
+            </div>
+            <img src="assets/img/index-04.jpg" alt="">
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col logo-footer">
+          <a href="#;">
+            <img src="assets/img/ngm_arquitecto_logo_footer.svg" alt="NGM Arquitecto">
+          </a>
+        </div>
+        <div class="col">
+          <div class="info-footer">
+            <p><strong>Dirección</strong></p>
+            <p>Avenida Siempre Viva 369, Providencia.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="info-footer">
+            <p><strong>Teléfono</strong></p>
+            <p>+56 9 87654321</p>
+          </div>
+        </div>
+        <div class="col">
+          <ul>
+            <li><a href="#;"><img src="assets/img/YouTube.svg" /></a></li>
+            <li><a href="#;"><img src="assets/img/Linkedin.svg" /></a></li>
+            <li><a href="#;"><img src="assets/img/Medium.svg" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      
+      blocks(2);
+
+      $(window).resize(function() {
+        blocks(2);
+        if($(window).width() < 992){
+          $('body').removeClass('ovhidden');
+          $('.navbar-collapse.collapse').removeClass('show');
+        }
+      });
+
+      function blocks(x){
+        for(var i = 1; i <= x; i++){
+          $('.block-0'+i).height($('.block-0'+i).width());
+          $('.block-0'+i+'-too').height($('.block-0'+i).width());
+        }
+      }
+
+      $('.navbar-toggler').click(function(){
+        if($(window).width() < 992){
+          $('body').toggleClass('ovhidden');
+        }
+      })
+
+      $('.carousel').carousel({
+        interval: 3500
+      })
+    })
+  </script>
+
+</body>
+</html>
